@@ -1,22 +1,21 @@
 import React from 'react';
-import Slider from '../pages/inc/Slider.js';
 import aboutimage from '../images/gift.jpg';
 
-function Home() {
+function Service1() {
     return (
         <div>
-             
-            <Slider />
-            <div className="container">
-            <div className="py-4 text-center">
-            <h1>Welcome to React Hooks Home Design</h1>
+
+            <div className="py-4 bg-warning">
+                <div className="container">
+                <h4 className="text-center">Service One</h4>
+                </div>
             </div>
-            </div>
+
             <div className="py-5 bg-light border-bottom">
             <div className="container">
                 <div className="row">
                     <div className="col-md-8">
-                    <h4 className="text-center">Wellcome to react Hook website Designing</h4>
+                    <h4 className="text-center">Service One</h4>
                 <div className="divider"></div>
                 <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -38,4 +37,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Service1;
